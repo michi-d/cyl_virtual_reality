@@ -26,7 +26,7 @@ More functions for control of the display are included in **arena_controls.py**.
 
 For use in a new virtual reality, the geometry of the pre-distortion pipeline must correspond to the geometry of the physical setup. Geometrical properties of the scene are specified in **core.base**.
 
-The following picture summarizes the geometrical properties of the pre-distortion pipeline which is used in the code.
+The following figure summarizes the main geometrical characteristics of the pre-distortion pipeline which is used in the code.
 
 <img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/virtual_worlds.png" alt="drawing" width="600"/>
 
