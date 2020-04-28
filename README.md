@@ -10,7 +10,7 @@ Fast rendering of 3D scenes is achieved by using the Python library Panda3D. The
 
 ### How to test:
 
-An example script **vr_run_test.py** is provided. This script renders a virtual circular tunnel through which the observer is passing at a constant speed.
+An example script **vr_run_test.py** is provided. This script renders a circular virtual tunnel through which the observer is passing at a constant speed.
 
 View of the stimulus screen from outside:
 
