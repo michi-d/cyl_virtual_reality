@@ -1,0 +1,39 @@
+{
+ "beamer_right_X": 0.0, 
+ "beamer_right_Y": 0.0, 
+ "beamer_right_Z": 0.0, 
+ "beamer_right_P": 0.0, 
+ "standard_path": "C:\\IN\\calcium_data\\", 
+ "beamer_left_H": 0.0, 
+ "beamer_right_R": 0.0, 
+ "beamer_position": [
+ ], 
+ "beamer_left_P": 0.0, 
+ "beamer_left_R": 0.0, 
+ "control_beamers": [
+ ], 
+ "beamer_right_H": 0.0, 
+ "beamer_right_FOV": [
+  0.0, 
+  0.0
+ ], 
+ "beamer_left_X": 0.0, 
+ "beamer_left_Y": 0.0, 
+ "beamer_left_Z": 0.0
+, 
+ "beamer_left_FOV": [
+  0.0, 
+  0.0
+ ],
+ "import_stimuli": [
+  "stimuli.default",
+  "stimuli.interactive",
+  "stimuli.opto_laser",
+  "stimuli.pixel"
+ ], 
+ "MCC_DAQ_lowChan": 0, 
+ "MCC_DAQ_highChan": 2, 
+ "MCC_DAQ_acquisitionRate": 2000, 
+ "MCC_DAQ_packageSize": 60000, 
+ "MCC_CurrentInjection_ampere": 50
+}
