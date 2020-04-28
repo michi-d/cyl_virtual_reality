@@ -1,6 +1,6 @@
 ## Cylindrical virtual reality setup
 
-Michael Drews (drews@neuro.mpg.de, Borst Lab, MPI of Neurobiology)
+by Michael Drews (drews@neuro.mpg.de, Borst Lab, MPI of Neurobiology)
 
 This is code for a virtual reality setup used as a stimulation device for fruit flies. The flies were placed in the virtual reality and neuronal signals were simultaneously recorded from the brain of the animal by using 2-photon imaging or electrophysiology. The software provided ensures correct rendering of stimuli from the perspective of the fly placed on the center axis of a cylindrical projection screen. By including an optical trigger signal in the lower left corner of the field, neuronal responses can be linked with high temporal precision to the stimulus on the screen.
 
