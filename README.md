@@ -4,4 +4,5 @@ The virtual reality is based on two micro-projectors (DLP Lightcrafter 3000, 684
 
 The following picture summarizes the geometrical pre-distortion principles which are used. Fast rendering of 3D scenes is achieved by using the Python library Panda3D.
 
-<img src="https://github.com/michi-d/cyl_virtual_reality/doc/virtual_worlds.png" alt="drawing" width="600"/>
+<img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/virtual_worlds.png" alt="drawing" width="600"/>
+doc/virtual_worlds.png
