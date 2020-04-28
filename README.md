@@ -9,10 +9,12 @@ Fast rendering of 3D scenes is achieved by using the Python library Panda3D. The
 An example script **vr_runt_test.py** is provided. This script renders a virtual circular tunnel through which the observer is passing at a constant speed.
 
 View of the stimulus screen from outside:
+
 <img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/tunnel_outside.png" alt="drawing" width="300"/>
 
 View of the virtual reality with the virtual observer moving through the tunnel (white lined indicating field of view):
-<img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/tunnel_outside.png" alt="drawing" width="300"/>
+
+<img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/tunnel_inside.png" alt="drawing" width="300"/>
 
 More functions for control of the display are included in **arena_controls.py**. 
 
