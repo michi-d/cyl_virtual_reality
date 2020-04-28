@@ -12,7 +12,7 @@ View of the stimulus screen from outside:
 
 <img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/tunnel_outside.png" alt="drawing" width="300"/>
 
-View of the virtual reality with the virtual observer moving through the tunnel (white lined indicating field of view):
+View of the virtual reality with the virtual observer moving through the tunnel (white lines indicating field of view):
 
 <img src="https://github.com/michi-d/cyl_virtual_reality/blob/master/doc/tunnel_inside.png" alt="drawing" width="300"/>
 
