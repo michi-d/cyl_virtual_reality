@@ -23,6 +23,11 @@ import sys, warnings
 
 class StimulusFramework():
 
+    '''
+    A general framework for each stimulus (defining the "build", "start" and "stop" events for each stimulus)
+    Automatically generates the trigger pixel for each stimulus.
+    '''
+
     def __init__(self, parent_render, parent_camera, parent_taskMgr, trigger_render, t_offset = 0, shared = []):
 
         self.parent_render   = parent_render    # parent render node

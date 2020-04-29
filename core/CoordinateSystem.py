@@ -7,6 +7,10 @@ import panda3d.core as pcore
 import math
 
 class CoordinateSystem(DirectObject.DirectObject):
+
+     '''
+     Define the main coordinate system and the two sub coordinate systems for the two projectors
+     '''
     
     
      def __init__(self, refNode, length, key):

@@ -18,6 +18,7 @@ import panda3d.core as pcore
 #    and camera behaves more similarly to an "FPS" camera.
 
 class FirstPersonCamera(DirectObject.DirectObject):
+
     '''
     First person camera controller.
     '''

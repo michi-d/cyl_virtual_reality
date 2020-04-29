@@ -33,6 +33,11 @@ import os as os
 
 class CylindricArena(ShowBase):
 
+    '''
+    Base class for the cylindrical VR setup.
+    Pre-distortion of images for projection onto a curved screen.
+    '''
+
     def __init__(self, calibration):
 
         ShowBase.__init__(self)

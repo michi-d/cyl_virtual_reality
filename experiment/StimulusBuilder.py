@@ -7,6 +7,11 @@ from numpy import abs as abs
 
 class StimulusBuilder:
 
+    '''
+    Parent class for each stimulus.
+    Takes care of automatic trigger display for "build", "start" and "stop" events.
+    '''
+
     def __init__(self, parent, shared, trigger_pixel, arg):
 
         self.parent = parent

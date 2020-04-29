@@ -14,6 +14,14 @@ RGB_OFFSET = [1., 2., 0.]
 
 class ExperimentFramework:
 
+    '''
+    This class controls the experimental procedure, such as starting new stimuli, writing a stimulus protocol etc.
+    Stimuli are distributed across the three "color worlds" with a temporal offset of 1/180 Hz. This is increases
+    the effective frame rate from 60 Hz to 180 Hz.
+    It can also be configured to trigger "extra events" such as current injection, control data acqusition etc.,
+    on a electrophysiology setup in synchrony with visual stimuli.
+    '''
+
     def __init__(self, arena, shared, click_window = True, vsync_adjust=True):
 
         self.arena = arena
@@ -56,13 +64,16 @@ class ExperimentFramework:
         # sets the priority of all running python processes to high
         os.system("wmic process where name='python.exe' CALL setpriority 'high priority'")
         
-        
 
     def activate_enter(self):
         self.enter_pressed = True
 
 
     def check_readiness(self):
+
+        '''
+        Check if all processes are ready to start (arena, ExperimentFramework, MCC_DAQ)
+        '''
 
         ready  =  self.shared.ready
         check_readiness = self.shared.check_readiness
@@ -93,6 +104,10 @@ class ExperimentFramework:
 
 
     def run_new(self, task):
+
+        '''
+        This function is continuously executed.
+        '''
 
         if not self.everything_ready:
             #print("check")
