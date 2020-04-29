@@ -1,4 +1,4 @@
-name: base
+name: cyl_virtual_reality
 channels:
   - defaults
 dependencies:
